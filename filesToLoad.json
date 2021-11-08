@@ -60,43 +60,53 @@
     "menuStructure": [
         {
             "name": "1. GPDMA",
-            "type": "File"
+            "type": "File",
+            "file": "gpdma.md"
           },
           {
             "name": "2. GPDMA M2M",
-            "type": "File"
+            "type": "File",
+            "file": "simple_m2m.md"
           },
           {
             "name": "3. GPDMA priority",
-            "type": "File"
+            "type": "File",
+            "file": "gpdma_priority_bus.md"
           },
           {
             "name": "4. GPDMA data exchange",
-            "type": "File"
+            "type": "File",
+            "file": "m2m_data_exchange.md"
           },
           {
             "name": "5. GPDMA data alignment",
-            "type": "File"
+            "type": "File",
+            "file": "m2m_data_alignment.md"
           },
           {
             "name": "6. GPDMA triggers",
-            "type": "File"
+            "type": "File",
+            "file": "channel_triggers.md"
           },
           {
             "name": "7. GPDMA burst",
-            "type": "File"
+            "type": "File",
+            "file": "m2m_burst_trigger.md"
           },
           {
             "name": "8. GPDMA block",
-            "type": "File"
+            "type": "File",
+            "file": "block_repeted_trigger.md"
           },
           {
             "name": "9. GPDMA events",
-            "type": "File"
+            "type": "File",
+            "file": "channel_events.md"
           },
           {
             "name": "10. GPDMA linked list",
-            "type": "File"
+            "type": "File",
+            "file": "linked_list.md"
           }
     ]
   }
