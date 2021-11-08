@@ -1,0 +1,102 @@
+{
+    "title": "STM32 GPDMA",
+    "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_gpdma/master",
+    "options": {
+      "allowMenu": true,
+      "allowTagSelect": false
+    },
+    "filesToLoadArr": [
+      {
+        "name": "1. GPDMA",
+        "path": "/Basic_config",
+        "file": "gpdma.md"
+      },
+      {
+        "name": "2. GPDMA M2M",
+        "path": "/Basic_config",
+        "file": "simple_m2m.md"
+      },
+      {
+        "name": "3. GPDMA priority",
+        "path": "/Basic_config",
+        "file": "gpdma_priority_bus.md"
+      },
+      {
+        "name": "4. GPDMA data exchange",
+        "path": "/Basic_config",
+        "file": "m2m_data_exchange.md"
+      },
+      {
+        "name": "5. GPDMA data alignment",
+        "path": "/Basic_config",
+        "file": "m2m_data_alignment.md"
+      },
+      {
+        "name": "6. GPDMA triggers",
+        "path": "/Basic_config",
+        "file": "channel_triggers.md"
+      },
+      {
+        "name": "7. GPDMA burst",
+        "path": "/Basic_config",
+        "file": "m2m_burst_trigger.md"
+      },
+      {
+        "name": "8. GPDMA block",
+        "path": "/Basic_config",
+        "file": "block_repeted_trigger.md"
+      },
+      {
+        "name": "9. GPDMA events",
+        "path": "/Basic_config",
+        "file": "channel_events.md"
+      },
+      {
+        "name": "10. GPDMA linked list",
+        "path": "/Basic_config",
+        "file": "linked_list.md"
+      }
+    ],
+    "menuStructure": [
+        {
+            "name": "1. GPDMA",
+            "type": "File"
+          },
+          {
+            "name": "2. GPDMA M2M",
+            "type": "File"
+          },
+          {
+            "name": "3. GPDMA priority",
+            "type": "File"
+          },
+          {
+            "name": "4. GPDMA data exchange",
+            "type": "File"
+          },
+          {
+            "name": "5. GPDMA data alignment",
+            "type": "File"
+          },
+          {
+            "name": "6. GPDMA triggers",
+            "type": "File"
+          },
+          {
+            "name": "7. GPDMA burst",
+            "type": "File"
+          },
+          {
+            "name": "8. GPDMA block",
+            "type": "File"
+          },
+          {
+            "name": "9. GPDMA events",
+            "type": "File"
+          },
+          {
+            "name": "10. GPDMA linked list",
+            "type": "File"
+          }
+    ]
+  }
