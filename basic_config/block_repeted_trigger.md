@@ -41,3 +41,9 @@ The offset can be from +-65536
 Decode JPEG like strucuture using repeated block. 
 
 ![gpdma 2d example](./img/23.svg)
+
+```c
+uint8_t buffer_tx[8]={1,2,7,8,6,4,9,10,5,6,11,12};
+uint8_t buffer_rx[16];
+HAL_StatusTypeDef retVal;
+```
