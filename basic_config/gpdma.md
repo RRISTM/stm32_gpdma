@@ -1,6 +1,7 @@
+
 # GPDMA
 
-GPDMA ihave 16 channels
+GPDMA have 16 channels
 
 Channels 0 - 11 have normal addresing mode with increment and burs
 
