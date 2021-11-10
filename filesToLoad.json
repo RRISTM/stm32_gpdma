@@ -60,6 +60,11 @@
         "name": "11. GPDMA linked list example",
         "path": "/basic_config",
         "file": "lli_example.md"
+      },
+      {
+        "name": "12. GPDMA LLI description",
+        "path": "/basic_config",
+        "file": "lli_hal_description.md"
       }
     ],
     "menuStructure": [
@@ -117,6 +122,11 @@
           "name": "11. GPDMA linked list example",
           "type": "File",
           "file": "lli_example.md"
+          },
+          {
+            "name": "12. GPDMA LLI description",
+            "type": "File",
+            "file": "lli_hal_description.md"
           }
     ]
   }
