@@ -65,6 +65,11 @@
         "name": "12. GPDMA LLI description",
         "path": "/basic_config",
         "file": "lli_hal_description.md"
+      },
+      {
+        "name": "13. LPDMA ADC LPUART",
+        "path": "/basic_config",
+        "file": "adc_lpdma_uart_example.md"
       }
     ],
     "menuStructure": [
@@ -127,6 +132,11 @@
             "name": "12. GPDMA LLI description",
             "type": "File",
             "file": "lli_hal_description.md"
+          },
+          {
+            "name": "13. LPDMA ADC LPUART",
+            "type": "File",
+            "file": "adc_lpdma_uart_example.md"
           }
     ]
   }
