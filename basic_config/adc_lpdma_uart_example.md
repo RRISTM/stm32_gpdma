@@ -54,13 +54,13 @@ Allow ADC4 to run in stop
 
 Add section to linker file to muve ADC buffer to SRAM4
 
-## Add memory
+Add memory
 
 ```c
   RAM4	(xrw)	: ORIGIN = 0x28000000,	LENGTH = 16K
 ```
 
-## Add section
+Add section
 
   .sram4 :
   {
@@ -69,19 +69,19 @@ Add section to linker file to muve ADC buffer to SRAM4
     _esram4 = .;        /* define a global symbol at data end */
   } >RAM4
 
-## Adc buffer and set it to sram4
+Adc buffer and set it to sram4
 
 ```c
 uint16_t buffer_adc[64] __attribute__((section(".sram4")));
 ```
 
-## SRAM4 in stop
+SRAM4 in stop
 
 ```c
 __HAL_RCC_SRAM4_CLKAM_ENABLE();
 ```
 
-## Start ADC4
+Start ADC4
 
 ```c
 HAL_ADC_Start_DMA(&hadc4, buffer_adc, 6);
@@ -176,7 +176,7 @@ DMA_NodeTypeDef Node_LPDMA1_Channel1  __attribute__((section(".sram4")));
 
 # Create list
 
-## Node a
+Node a
 
 Source address
 
@@ -196,7 +196,7 @@ Size
 12
 ```
 
-## Node b
+Node b
 
 ```c
 buffer_adc
