@@ -1,142 +1,164 @@
 {
-    "title": "STM32 GPDMA",
-    "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_gpdma/master",
-    "options": {
-      "allowMenu": true,
-      "allowTagSelect": false
+  "title": "STM32 GPDMA",
+  "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_gpdma/master",
+  "options": {
+    "allowMenu": true,
+    "allowTagSelect": false
+  },
+  "filesToLoadArr": [
+    {
+      "name": "1. GPDMA",
+      "path": "/basic_config",
+      "file": "gpdma.md"
     },
-    "filesToLoadArr": [
-      {
-        "name": "1. GPDMA",
-        "path": "/basic_config",
-        "file": "gpdma.md"
-      },
-      {
-        "name": "2. GPDMA M2M",
-        "path": "/basic_config",
-        "file": "simple_m2m.md"
-      },
-      {
-        "name": "3. GPDMA priority",
-        "path": "/basic_config",
-        "file": "gpdma_priority_bus.md"
-      },
-      {
-        "name": "4. GPDMA data exchange",
-        "path": "/basic_config",
-        "file": "m2m_data_exchange.md"
-      },
-      {
-        "name": "5. GPDMA data alignment",
-        "path": "/basic_config",
-        "file": "m2m_data_alignment.md"
-      },
-      {
-        "name": "6. GPDMA triggers",
-        "path": "/basic_config",
-        "file": "channel_triggers.md"
-      },
-      {
-        "name": "7. GPDMA burst",
-        "path": "/basic_config",
-        "file": "m2m_burst_trigger.md"
-      },
-      {
-        "name": "8. GPDMA block",
-        "path": "/basic_config",
-        "file": "block_repeted_trigger.md"
-      },
-      {
-        "name": "9. GPDMA events",
-        "path": "/basic_config",
-        "file": "channel_events.md"
-      },
-      {
-        "name": "10. GPDMA linked list",
-        "path": "/basic_config",
-        "file": "linked_list.md"
-      },
-      {
-        "name": "11. GPDMA linked list example",
-        "path": "/basic_config",
-        "file": "lli_example.md"
-      },
-      {
-        "name": "12. GPDMA LLI description",
-        "path": "/basic_config",
-        "file": "lli_hal_description.md"
-      },
-      {
-        "name": "13. LPDMA ADC LPUART",
-        "path": "/basic_config",
-        "file": "adc_lpdma_uart_example.md"
-      }
-    ],
-    "menuStructure": [
+    {
+      "name": "2. GPDMA M2M",
+      "path": "/basic_config",
+      "file": "simple_m2m.md"
+    },
+    {
+      "name": "3. GPDMA priority",
+      "path": "/basic_config",
+      "file": "gpdma_priority_bus.md"
+    },
+    {
+      "name": "4. GPDMA data exchange",
+      "path": "/basic_config",
+      "file": "m2m_data_exchange.md"
+    },
+    {
+      "name": "5. GPDMA data alignment",
+      "path": "/basic_config",
+      "file": "m2m_data_alignment.md"
+    },
+    {
+      "name": "6. GPDMA triggers",
+      "path": "/basic_config",
+      "file": "channel_triggers.md"
+    },
+    {
+      "name": "7. GPDMA burst",
+      "path": "/basic_config",
+      "file": "m2m_burst_trigger.md"
+    },
+    {
+      "name": "8. GPDMA block",
+      "path": "/basic_config",
+      "file": "block_repeted_trigger.md"
+    },
+    {
+      "name": "9. GPDMA events",
+      "path": "/basic_config",
+      "file": "channel_events.md"
+    },
+    {
+      "name": "10. GPDMA linked list",
+      "path": "/basic_config",
+      "file": "linked_list.md"
+    },
+    {
+      "name": "11. GPDMA linked list example",
+      "path": "/basic_config",
+      "file": "lli_example.md"
+    },
+    {
+      "name": "12. GPDMA LLI description",
+      "path": "/basic_config",
+      "file": "lli_hal_description.md"
+    },
+    {
+      "name": "13. LPDMA ADC LPUART",
+      "path": "/basic_config",
+      "file": "adc_lpdma_uart_example.md"
+    },
+    {
+      "name": "M2M example",
+      "path": "/basic_config",
+      "file": "m2m_simple_example.md"
+    }
+
+  ],
+  "menuStructure": [
+    {
+      "name": "GPDMA basic work",
+      "type": "Folder",
+      "chidren": [
         {
-            "name": "1. GPDMA",
-            "type": "File",
-            "file": "gpdma.md"
-          },
-          {
-            "name": "2. GPDMA M2M",
-            "type": "File",
-            "file": "simple_m2m.md"
-          },
-          {
-            "name": "3. GPDMA priority",
-            "type": "File",
-            "file": "gpdma_priority_bus.md"
-          },
-          {
-            "name": "4. GPDMA data exchange",
-            "type": "File",
-            "file": "m2m_data_exchange.md"
-          },
-          {
-            "name": "5. GPDMA data alignment",
-            "type": "File",
-            "file": "m2m_data_alignment.md"
-          },
-          {
-            "name": "6. GPDMA triggers",
-            "type": "File",
-            "file": "channel_triggers.md"
-          },
-          {
-            "name": "7. GPDMA burst",
-            "type": "File",
-            "file": "m2m_burst_trigger.md"
-          },
-          {
-            "name": "8. GPDMA block",
-            "type": "File",
-            "file": "block_repeted_trigger.md"
-          },
-          {
-            "name": "9. GPDMA events",
-            "type": "File",
-            "file": "channel_events.md"
-          },
-          {
-            "name": "10. GPDMA linked list",
-            "type": "File",
-            "file": "linked_list.md"
-          },
-          {
-          "name": "11. GPDMA linked list example",
+          "name": "Memory to memory",
           "type": "File",
-          "file": "lli_example.md"
-          },
-          {
-            "name": "12. GPDMA LLI description",
-            "type": "File",
-            "file": "lli_hal_description.md"
-          },
-          {
-            "name": "13. LPDMA ADC LPUART",
-            "type": "File",
-            "file": "adc_lpdma_uart_example.md"
-          }
-    ]
-  }
+          "file": "simple_m2m.md"
+        },
+        {
+          "name": "M2M example",
+          "type": "File",
+          "file": "m2m_simple_example.md"
+        }
+      ]
+    },
+    {
+      "name": "1. GPDMA",
+      "type": "File",
+      "file": "gpdma.md"
+    },
+    {
+      "name": "2. GPDMA M2M",
+      "type": "File",
+      "file": "simple_m2m.md"
+    },
+    {
+      "name": "3. GPDMA priority",
+      "type": "File",
+      "file": "gpdma_priority_bus.md"
+    },
+    {
+      "name": "4. GPDMA data exchange",
+      "type": "File",
+      "file": "m2m_data_exchange.md"
+    },
+    {
+      "name": "5. GPDMA data alignment",
+      "type": "File",
+      "file": "m2m_data_alignment.md"
+    },
+    {
+      "name": "6. GPDMA triggers",
+      "type": "File",
+      "file": "channel_triggers.md"
+    },
+    {
+      "name": "7. GPDMA burst",
+      "type": "File",
+      "file": "m2m_burst_trigger.md"
+    },
+    {
+      "name": "8. GPDMA block",
+      "type": "File",
+      "file": "block_repeted_trigger.md"
+    },
+    {
+      "name": "9. GPDMA events",
+      "type": "File",
+      "file": "channel_events.md"
+    },
+    {
+      "name": "10. GPDMA linked list",
+      "type": "File",
+      "file": "linked_list.md"
+    },
+    {
+      "name": "11. GPDMA linked list example",
+      "type": "File",
+      "file": "lli_example.md"
+    },
+    {
+      "name": "12. GPDMA LLI description",
+      "type": "File",
+      "file": "lli_hal_description.md"
+    },
+    {
+      "name": "13. LPDMA ADC LPUART",
+      "type": "File",
+      "file": "adc_lpdma_uart_example.md"
+    }
+  ]
+}

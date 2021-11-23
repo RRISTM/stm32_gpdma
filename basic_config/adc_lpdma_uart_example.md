@@ -62,12 +62,14 @@ Add memory
 
 Add section
 
+```c
   .sram4 :
   {
     _ssram4 = .;        /* create a global symbol at data start */
     *(.sram4)           /* .data sections */
     _esram4 = .;        /* define a global symbol at data end */
   } >RAM4
+```
 
 Adc buffer and set it to sram4
 
