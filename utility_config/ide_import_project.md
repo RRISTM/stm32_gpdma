@@ -23,6 +23,6 @@ Step by step guide how to import project to CubeIDE
 
 ![import option](./img/15.png)
 
-7. `Finish`
+7. Click `Finish` button
 
 Now your project is imported into your IDE

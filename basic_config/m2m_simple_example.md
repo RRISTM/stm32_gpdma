@@ -8,8 +8,7 @@ This example is to show how to create simple memory to memory copy with GPDMA. W
 
 1. Create new project
 
-Description is here 
-[Link](./mx_crete_project.md)
+Description is here [Link](./mx_create_project.md)
 
 2. Open `GPDMA` configuration
 
@@ -40,23 +39,22 @@ Set:
 This configuration allow us to copy all bytes from `buffer_a` to `buffer_b`
 </ainfo>
 
+
 6. Set project name and generate code:
 
-Description is here 
-[Link](./mx_generate_project.md)
+Description is here [Link](./mx_generate_code.md)
 
 <ainfo>
 Not neede if you use MX in CubeIDE
 </ainfo>
 
-7. Import project to CubeIDE
 
-
-[Link](./ide_import_project.md)
+7. Import project to CubeIDE [Link](./ide_import_project.md)
 
 <ainfo>
 Not neede if you use MX in CubeIDE
 </ainfo>
+
 
 8. Open your `main.c` (by default `ProjectName>Core>Src>main.c`)
 
@@ -71,7 +69,7 @@ uint8_t buffer_b[4];
 
 Should look like 
 
-```
+```cc
 /* USER CODE BEGIN PV */
 uint8_t buffer_a[4]={1,2,3,4};
 uint8_t buffer_b[4];
@@ -86,7 +84,7 @@ HAL_DMA_Start(&handle_GPDMA1_Channel9, buffer_a, buffer_b, 4);
 
 should look like 
 
-```
+```cc
 /* USER CODE BEGIN 2 */
 HAL_DMA_Start(&handle_GPDMA1_Channel9, buffer_a, buffer_b, 4);
 /* USER CODE END 2 */
@@ -96,15 +94,17 @@ HAL_DMA_Start(&handle_GPDMA1_Channel9, buffer_a, buffer_b, 4);
 
 `&handle_GPDMA1_Channel9` is GPDMA handle containing information about GPDMA state. In my case i have channel9. 
 
-`buffer_a` is source buffer from which we will copy data
+`buffer_a` - is source buffer from which we will copy data
 
-`buffer_b` destination buffer where to copy data
+`buffer_b` - destination buffer where to copy data
 
-`4` number of bytes to copy max is 2^16(65k)
+`4` - is number of bytes to copy max is 2^16(65k)
+
 
 <awarning>
 GPDMA is counting transfers in bytes even if your source and destination width is word
 </awarning>
+
 
 ## Check if DMA finishes
 
@@ -116,7 +116,7 @@ HAL_DMA_PollForTransfer(&handle_GPDMA1_Channel9, HAL_DMA_FULL_TRANSFER, 0x100);
 
 Complete section will look like
 
-```
+```cc
   /* USER CODE BEGIN 2 */
   HAL_DMA_Start(&handle_GPDMA1_Channel9, buffer_a, buffer_b, 4);
   HAL_DMA_PollForTransfer(&handle_GPDMA1_Channel9, HAL_DMA_FULL_TRANSFER, 0x100);
@@ -137,6 +137,7 @@ For this example im not checking retunr functions to make it more simple
 But in normal situation we would catch also return parameter
 </ainfo>
 
+
 11. Run debug 
 
 [Link](./ide_debug.md)
@@ -152,6 +153,7 @@ The code can be runned by `F8`
 Double click on left side of editor line `add/remove breakpoint`
 Double click on variable allow to `add wariable to watch`(working only if code is **suspended**)
 </ainfo>
+
 
 ## Conclusion
 
