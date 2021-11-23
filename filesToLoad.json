@@ -102,7 +102,7 @@
     {
       "name": "GPDMA basic work",
       "type": "Folder",
-      "chidren": [
+      "children": [
         {
           "name": "Memory to memory",
           "type": "File",
