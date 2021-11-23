@@ -137,11 +137,7 @@ For this example im not checking retunr functions to make it more simple
 But in normal situation we would catch also return parameter
 </ainfo>
 
-
-11. Run debug 
-
-[Link](./ide_debug.md)
-
+11. Run debug [Link](./ide_debug.md)
 
 
 12.  Check if `buffer_b` have same content as `buffer_a`
