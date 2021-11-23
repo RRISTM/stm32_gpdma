@@ -92,9 +92,9 @@
       "file": "mx_create_project.md"
     },
     {
-      "name": "CubeMX generate project",
+      "name": "CubeMX generate code",
       "path": "/utility_config",
-      "file": "mx_generate_project.md"
+      "file": "mx_generate_code.md"
     }
 
   ],
