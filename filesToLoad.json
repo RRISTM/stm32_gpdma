@@ -98,8 +98,8 @@
     },
     {
       "name": "Basic UART Tx DMA example",
-      "path": "/utility_config",
-      "file": "basic_tx_eample.md"
+      "path": "/basic_config",
+      "file": "basic_tx_example.md"
     }
 
   ],
@@ -121,7 +121,7 @@
         {
           "name": "Basic UART Tx DMA example",
           "type": "File",
-          "file": "basic_tx_eample.md"
+          "file": "basic_tx_example.md"
         }
       ]
     },
