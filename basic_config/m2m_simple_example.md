@@ -60,7 +60,7 @@ Not neede if you use MX in CubeIDE
 
 ![main.c open](./img/17.png)
 
-1. We add `buffer_a` and `buffer_b` into section `/* USER CODE BEGIN PV */`
+9. We add `buffer_a` and `buffer_b` into section `/* USER CODE BEGIN PV */`
 
 ```c
 uint8_t buffer_a[4]={1,2,3,4};

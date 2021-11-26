@@ -95,6 +95,11 @@
       "name": "CubeMX generate code",
       "path": "/utility_config",
       "file": "mx_generate_code.md"
+    },
+    {
+      "name": "Basic UART Tx DMA example",
+      "path": "/utility_config",
+      "file": "basic_tx_eample.md"
     }
 
   ],
@@ -112,6 +117,11 @@
           "name": "M2M example",
           "type": "File",
           "file": "m2m_simple_example.md"
+        },
+        {
+          "name": "Basic UART Tx DMA example",
+          "type": "File",
+          "file": "basic_tx_eample.md"
         }
       ]
     },
