@@ -100,6 +100,11 @@
       "name": "Basic UART Tx DMA example",
       "path": "/basic_config",
       "file": "basic_tx_example.md"
+    },
+    {
+      "name": "Basic UART Rx DMA example",
+      "path": "/basic_config",
+      "file": "basic_rx_circular.md"
     }
 
   ],
@@ -122,6 +127,11 @@
           "name": "Basic UART Tx DMA example",
           "type": "File",
           "file": "basic_tx_example.md"
+        },
+        {
+          "name": "Basic UART Rx DMA example",
+          "type": "File",
+          "file": "basic_rx_circular.md"
         }
       ]
     },

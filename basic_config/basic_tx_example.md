@@ -31,7 +31,7 @@ This will allow GPDMA to react on UART1_TX dma requests
 
 ![select source address increment](./img/21_11_26_16.gif)
 
-## What we have no
+## What we have now
 
 Now we configuer UART1 and GPDMA. 
 When UART1 is able to send data he create request to GPDMA. 
