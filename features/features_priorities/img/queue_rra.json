@@ -1,0 +1,45 @@
+{
+    "interval": 1500,
+    "sequence": [
+        {
+            "name": "Slide2.svg",
+            "text": ""
+        },
+        {
+            "name": "Slide3.svg",
+            "text": "We have two channels ch0 & ch1. With active requests"
+        },
+        {
+            "name": "Slide4.svg",
+            "text": "Ch0 is send first"
+        },
+        {
+            "name": "Slide5.svg",
+            "text": "Then next roud robin ch will be ch1"
+        },
+        {
+            "name": "Slide6.svg",
+            "text": "ch1 is sent next"
+        },
+        {
+            "name": "Slide7.svg",
+            "text": "ch1 have no active requests. Ch0 is next"
+        },
+        {
+            "name": "Slide8.svg",
+            "text": "ch0 is sent"
+        },
+                {
+            "name": "Slide9.svg",
+            "text": "ch1 is inactive so not served"
+        },
+        {
+            "name": "Slide10.svg",
+            "text": "ch0 will be next"
+        },
+        {
+            "name": "Slide11.svg",
+            "text": "ch0 sent"
+        }
+    ]
+}

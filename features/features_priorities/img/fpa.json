@@ -2,8 +2,48 @@
     "interval": 1500,
     "sequence": [
         {
-            "name": "Slide84.svg",
+            "name": "Slide14.svg",
+            "text": "the FPA(fixed priority arbiter) have simple function. If there is an request in Queue 3 it is propageted. If not the Other queues will be served in low priority path. "
+        },
+        {
+            "name": "Slide15.svg",
+            "text": "we have ch0 and ch1 in Queue 3 and ch3 in low path"
+        },
+        {
+            "name": "Slide16.svg",
+            "text": "first is sent ch0 to FPA"
+        },
+        {
+            "name": "Slide17.svg",
+            "text": "ch0 served"
+        },
+        {
+            "name": "Slide18.svg",
+            "text": "next will be ch1"
+        },
+        {
+            "name": "Slide19.svg",
+            "text": "ch1 sent ti FPA"
+        },
+        {
+            "name": "Slide20.svg",
+            "text": "ch1 served"
+        },
+        {
+            "name": "Slide21.svg",
+            "text": "no new request in Queue 3"
+        },
+        {
+            "name": "Slide22.svg",
+            "text": "ch3 is served by FPA"
+        },
+        {
+            "name": "Slide23.svg",
             "text": ""
+        },
+        {
+            "name": "Slide24.svg",
+            "text": "waiting for new requests"
         }
     ]
 }

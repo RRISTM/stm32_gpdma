@@ -1,0 +1,49 @@
+{
+    "interval": 1500,
+    "sequence": [
+        {
+            "name": "Slide26.svg",
+            "text": "added low priority ch0 and medium priority ch1"
+        },
+        {
+            "name": "Slide27.svg",
+            "text": "ch0 is in queue 0, ch1 is in queue 1 and queue2"
+        },
+        {
+            "name": "Slide28.svg",
+            "text": "no request from queue2"
+        },
+        {
+            "name": "Slide29.svg",
+            "text": "send ch1 from queue 1"
+        },
+        {
+            "name": "Slide30.svg",
+            "text": "send ch1 from queue 0"
+        },
+        {
+            "name": "Slide31.svg",
+            "text": ""
+        },
+        {
+            "name": "Slide32.svg",
+            "text": "next will be ch0 in queue 0"
+        },
+        {
+            "name": "Slide33.svg",
+            "text": "queue 2 empty"
+        },
+        {
+            "name": "Slide34.svg",
+            "text": "sent ch1 from queue 1"
+        },
+        {
+            "name": "Slide35.svg",
+            "text": "sent ch0 from queue 0 "
+        },
+        {
+            "name": "Slide36.svg",
+            "text": "next will be ch1 in queue 0"
+        }
+    ]
+}

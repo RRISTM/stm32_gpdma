@@ -105,6 +105,10 @@
       "name": "Basic UART Rx DMA example",
       "path": "/basic_config",
       "file": "basic_rx_circular.md"
+    },
+    {
+      "path": "/features/features_priorities",
+      "file": "theory_port_priorities.md"
     }
 
   ],
@@ -132,6 +136,17 @@
           "name": "Basic UART Rx DMA example",
           "type": "File",
           "file": "basic_rx_circular.md"
+        }
+      ]
+    },
+    {
+      "name": "GPDMA features",
+      "type": "Folder",
+      "children": [
+        {
+          "name": "Ports & Priorities",
+          "type": "File",
+          "file": "theory_port_priorities.md"
         }
       ]
     },
