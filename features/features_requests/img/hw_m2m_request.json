@@ -1,0 +1,28 @@
+{
+    "interval": 1500,
+    "sequence": [
+        {
+            "name": "Slide16.svg",
+            "text": "The GPDMA channel is waiting for request"
+        },
+        {
+            "name": "Slide17.svg",
+            "text": "If previous transfer was completed the GPDMA channel will create own request"
+        },
+        {
+            "name": "Slide18.svg",
+            "text": "Data are read from source location "
+        },
+        {
+            "name": "Slide19.svg",
+            "text": "Data are temporary stored in GPDMA channel until destination port is available"
+        },
+        {
+            "name": "Slide20.svg",
+            "text": "Data are transfered to destination"
+        },        {
+            "name": "Slide21.svg",
+            "text": "The requested transfer is now complete the GPDMA channel can now accepts additional request"
+        }
+    ]
+}

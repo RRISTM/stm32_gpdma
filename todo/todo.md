@@ -11,10 +11,10 @@
 
 ### GPDMA features elements
 
-1. Priorities
-2. Requests
+1. Priorities - done
+2. Requests - done
 3. Burst
-4. Allocation ports
+4. Allocation ports - part of priorities
 5. Data handling
 6. 2D addressing
 7. Triggers
