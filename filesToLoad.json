@@ -109,6 +109,10 @@
     {
       "path": "/features/features_priorities",
       "file": "theory_port_priorities.md"
+    },
+    {
+      "path": "/features/features_requests",
+      "file": "theory_requests.md"
     }
 
   ],
@@ -147,6 +151,11 @@
           "name": "Ports & Priorities",
           "type": "File",
           "file": "theory_port_priorities.md"
+        },
+        {
+          "name": "Transfer Requests",
+          "type": "File",
+          "file": "theory_requests.md"
         }
       ]
     },
